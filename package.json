@@ -1,0 +1,20 @@
+{
+  "name": "http-over-ai",
+  "version": "0.1.0",
+  "description": "Simulates a HTTP/1.1 server with a language model",
+  "main": "server.ts",
+  "scripts": {
+    "server": "bun run server.ts"
+  },
+  "author": "@scottinallcaps",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "4.96.x"
+  },
+  "devDependencies": {
+    "@types/bun": "1.2.x"
+  },
+  "peerDependencies": {
+    "typescript": "5.x.x"
+  }
+}
